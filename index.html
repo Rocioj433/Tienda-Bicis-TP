@@ -1,74 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Productora discográfica G2</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/e391ce7786.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <div class="nav">
-        <ul>
-            <li>¿Quienes somos?</li>
-            <li>Nuestros artistas</li>
-            <li>Subí tu demo</li>
-            <li>Contacto</li>
-        </ul>
+  <div class="container1">
+    <div class="header1">
+      <img src="imgs/imgchiquita.png" height="75" width="100" alt="">
+      <ul class="menu1">
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#card">Compra</a></li>
+        <li><a href="#consulta">Consulta</a></li>
+      </ul>
     </div>
-    <h1>Productora G2</h1>
-    <section class="presentacion">
-        <h2>Sobre nosotros</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui necessitatibus molestias suscipit architecto nostrum ex quia vitae, eos sint similique porro voluptatibus! Est natus alias ad ea facere consectetur earum.</p>
-    </section>
-    <section class="clientes" id="clientes">
-        <h2>Nuestros clientes</h2>
-        <div class="img-clientes"></div>
-    </section>
-    <section>
-        <select name="genero" id="genero">
-            <option value=" ">Genero</option>
-            <option value="rock">Rock</option>
-            <option value="trap">Trap</option>
-            <option value="pop">Pop</option>
-            <option value="regueton">Regueton</option>
-            <option value="blues">Blues</option>
-        </select>
-        <button  id="button-cargar" type="submit">Carga tu demo</button>
-        <button  id="button-quitar-ultimo" type="submit">Quitá tu último tema</button>
-        
-        <select name="seleccionarTema" id="seleccionarTema">
-            <option value="">Elegí el tema a remover</option>
-            <option value="0">Primer tema</option>
-            <option value="1">Segundo tema</option>
-            <option value="2">Tercer tema</option>
-            <option value="3">Cuarto tema</option>
-        </select>
+    <img src="imgs/img1.jpg" height="200" width="965" alt="">
+    <div class="row1">
+      <div class="col">
+        <h2>Guayerd Bikes</h2>
+        <img src="imgs/img2.jpg" alt="">
+        <p id="nosotros">Guayerd Bikes, nace en el año 1985 en Rafaela, provincia de Santa Fe, Argentina, como un proyecto de juancito y su esposa, quienes comenzaron con un taller destinado a la reparación de bicicletas en su domicilio particular. Tiempo después las exigencias del mercado los impulsa a fabricar sus propias bicicletas, en un espacio más apropiado. Por este motivo instalan su fábrica de bicicletas en la localidad de Susana, situada a 12 Km de Rafaela. Hoy, la misma cuenta con una dotación de más de 90 trabajadores distribuidos entre administración, fábrica, depósito, local comercial y logística. El esfuerzo y trabajo en equipo hacen que se fabriquen más de 100 mil bicicletas al año, que luego se distribuyen en todo el país.</p>
+      </div>
+      <div class="col">
+        <h2>Sello de calidad</h2>
+        <img src="imgs/img3f.jpg" alt="">
+        <p>Tenemos la mejorar variedad de productos del mercado que cumplen con los requerimientos de todo tipo de clientes, somos tu mejor elección.
+        </p>
+      </div>
+      <div class="col">
+        <h2>Subastas online</h2>
+        <img src="./imgs/biciMultiColor.png" alt="">
+        <p>Guayerd Bikes es una alternativa económica para aquellas personas que desean comprar o vender sus productos en Internet.
+          Guayerd Bikes hace de nexo entre compradores y vendedores de todo el mundo, a través de un portal ameno, sencillo de usar y totalmente gratuito.</p>
+      </div>
+    </div>
+    <div class="footer1">
+      <span><a href="#">enlace 1</a> <a href="#">enlace 2</a></span>
+      <ul class="menu">
+        <li><a href="#">enlace1</a></li>
+        <li><a href="#">enlace2</a></li>
+        <li><a href="#">enlace3</a></li>
+      </ul>
+    </div>
 
-    </section>
-    <section class="turno" id="turno">
-            <h2>Agendá tu turno</h2>
-        <form action="">
-            <label for="">Nombre</label>
-            <input type="text">
-            <label for="">Apellido</label>
-            <input type="text">
-            <label for="">Email</label>
-            <input type="email">
-            <label for="">Teléfono</label>
-            <input type="text">
-            <label for="textarea">Dejanos tu comentario</label>
-            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
-        </form>
-    </section>
-    <section class="pago" id="pago">
-        <select name="pago" id="pago">
-            <option value="Efectivo">Efectivo</option>
-            <option value="Debito">Débito</option>
-            <option value="Credito">Crédito</option>
-        </select>
-    </section>
+  </div>
+  </div>
 
-    <script src="./app.js"></script>
+  <div class="container">
+    <h1>Productos</h1>
+    <span></span>
+
+
+
+    <div class="card" id="card">
+      <img class="imgcard" src="./imgs/biciCeleste.png" alt="portrait1">
+      <div class="content">
+        <h2>Sunny Modelo Mts 290</h2>
+        <h4>nuevo</h4>
+        <p>Se destacan por sus cuadros de aluminio hidroformado y de frente integrado. Son productos de carrera de alta
+          gama, pensados para ciclistas con ganas de superarse.
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="imgcard" src="./imgs/biciAmarilla.png" alt="portrait2">
+      <div class="content">
+        <h2>bike SLP 25 Pro Lady</h2>
+        <h4>agotado</h4>
+        <p>Sus materiales y diseños están pensados para la acción, son resistentes y cuentan con mejor maniobrabilidad
+          que otros modelos brindándote mayor tracción
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="imgcard" src="./imgs/biciNegra.png" alt="portrait3">
+      <div class="content">
+        <h2>Bicicleta Topmega Sunshine</h2>
+        <h4>subasta</h4>
+        <p>Su sistema de suspensión delantera la hace más liviana que aquellas que tienen doble suspensión. Esto se
+          traduce en más velocidad, mejor nivel y mantenimiento sencillo.
+        </p>
+      </div>
+    </div>
+
+    <div class="card" id="card">
+      <img class="imgcard" src="./imgs/biciVerdeAgua.png" alt="portrait1">
+      <div class="content">
+        <h2>Specialized</h2>
+        <h4>nuevo</h4>
+        <p>El gigante norteamericano es la marca de bicicletas de referencia en todo el mundo. 
+        </p>
+      </div>
+    </div>
+
+    <div class="card" id="card">
+      <img class="imgcard" src="./imgs/img1.jpg" alt="portrait1">
+      <div class="content">
+        <h2>Trek</h2>
+        <h4>nuevo</h4>
+        <p>Bicicletas del máximo nivel competitivo, a precios accesibles y con todo tipo de innovaciones tecnológicas
+        </p>
+      </div>
+    </div>
+
+
+    <div class="wrapper">
+      <div class="login-box">
+        <div class="title">
+          <h1>Consulta</h1>
+        </div>
+
+        <div class="contact-consulta" id="consulta">
+          <div class="input-fields">
+
+
+            <label for="" class="form-label">Nombre</label>
+            <input type="text" class="form-input">
+
+            <label class="form-input" for="">Apellido</label>
+            <input class="form-input" type="text">
+
+            <label class="form-input" for="">Email</label>
+            <input class="form-input" type="text">
+
+            <label class="form-input" for="">Celular</label>
+            <input class="form-input" type="text">
+
+            
+
+          </div>
+          <div class="msg">
+            <label for="">Contanos</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <div class="btn">
+              <button type="submit">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+      <div id="footer_connect" class="footer_info">
+
+        <h4>redes sociales</h4>
+
+        <ul>
+          <li><a href="#" id="facebook" title="Facebook">Facebook</a></li>
+          <li><a href="#" id="linkedin" title="LinkedIn">LinkedIn</a></li>
+          <li><a href="#" id="skype" title="Skype">Skype</a></li>
+          <li><a href="#" id="sharethis" title="Share This">ShareThis</a></li>
+        </ul>
+
+      </div>
+
+
+
+
 </body>
+
 </html>
