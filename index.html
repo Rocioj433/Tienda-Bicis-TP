@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Productora discográfica G2</title>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>¿Quienes somos?</li>
+            <li>Nuestros artistas</li>
+            <li>Subí tu demo</li>
+            <li>Contacto</li>
+        </ul>
+    </div>
+    <h1>Productora G2</h1>
+    <section class="presentacion">
+        <h2>Sobre nosotros</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui necessitatibus molestias suscipit architecto nostrum ex quia vitae, eos sint similique porro voluptatibus! Est natus alias ad ea facere consectetur earum.</p>
+    </section>
+    <section class="clientes" id="clientes">
+        <h2>Nuestros clientes</h2>
+        <div class="img-clientes"></div>
+    </section>
+    <section>
+        <select name="genero" id="genero">
+            <option value=" ">Genero</option>
+            <option value="rock">Rock</option>
+            <option value="trap">Trap</option>
+            <option value="pop">Pop</option>
+            <option value="regueton">Regueton</option>
+            <option value="blues">Blues</option>
+        </select>
+        <button  id="button-cargar" type="submit">Carga tu demo</button>
+        <button  id="button-quitar-ultimo" type="submit">Quitá tu último tema</button>
+        
+        <select name="seleccionarTema" id="seleccionarTema">
+            <option value="">Elegí el tema a remover</option>
+            <option value="0">Primer tema</option>
+            <option value="1">Segundo tema</option>
+            <option value="2">Tercer tema</option>
+            <option value="3">Cuarto tema</option>
+        </select>
+
+    </section>
+    <section class="turno" id="turno">
+            <h2>Agendá tu turno</h2>
+        <form action="">
+            <label for="">Nombre</label>
+            <input type="text">
+            <label for="">Apellido</label>
+            <input type="text">
+            <label for="">Email</label>
+            <input type="email">
+            <label for="">Teléfono</label>
+            <input type="text">
+            <label for="textarea">Dejanos tu comentario</label>
+            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+        </form>
+    </section>
+    <section class="pago" id="pago">
+        <select name="pago" id="pago">
+            <option value="Efectivo">Efectivo</option>
+            <option value="Debito">Débito</option>
+            <option value="Credito">Crédito</option>
+        </select>
+    </section>
+
+    <script src="./app.js"></script>
+</body>
+</html>
