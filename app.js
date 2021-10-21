@@ -57,3 +57,7 @@ function pagar() {
     alert("El total a pagar es " + total);
     
 }
+const btnVaciar = document.getElementById('vaciar-carrito').addEventListener('click', () => vaciarCarro());
+function vaciarCarro(){
+        carrito.pop();
+}
