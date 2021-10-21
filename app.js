@@ -68,5 +68,10 @@ function pagar() {
 }
 const btnVaciar = document.getElementById('vaciar-carrito').addEventListener('click', () => vaciarCarro());
 function vaciarCarro(){
-        carrito.pop();
+        if(carrito.length == 0){
+                alert("No tienes más bicicletas en el carrito para remover");
+        }else{
+                carrito.pop();
+                alert(`Actualmente en el carrito hay ${carrito.length} bicicletas`)
+        }
 }
