@@ -39,7 +39,11 @@ const proLadyElement = document.getElementById("card2").addEventListener("click"
 const topmegaElement = document.getElementById("card3").addEventListener("click",() => sumarItem(topmega));
 const specializedElement = document.getElementById("card4").addEventListener("click",() => sumarItem(specialized));
 const trekElement = document.getElementById("card5").addEventListener("click",() => sumarItem(trek));
-
+const sunnyImg = document.getElementById("card1").addEventListener("click", () => cambiarTexto("parrafo1")); 
+const proLadyImg = document.getElementById("card2").addEventListener("click", () => cambiarTexto("parrafo2")); 
+const topmegaImg = document.getElementById("card3").addEventListener("click", () => cambiarTexto("parrafo3")); 
+const specializedImg = document.getElementById("card4").addEventListener("click", () => cambiarTexto("parrafo4")); 
+const trekImg = document.getElementById("card5").addEventListener("click", () => cambiarTexto("parrafo5")); 
 const btnElement = document.getElementById("pagarbtn").addEventListener("click",() => pagar());
 
 
@@ -47,6 +51,11 @@ const btnElement = document.getElementById("pagarbtn").addEventListener("click",
 function sumarItem(item) {
     carrito.push(item);
 }
+
+function cambiarTexto(a) {
+    document.getElementById(a).innerHTML="<p>Comprado</p>";
+}
+
 
 let total = 0;
 
