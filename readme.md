@@ -5,5 +5,5 @@ Integrantes:
 -Juan Bautista (Tester)
 -Milagros Parraga(Maquetacion)
 -Diego Trinidad y Georgina De Trinidad( Css)
--German(no partipa por temas personales)
+-Germán (apoyando en css)(Participando ahora).
 -Rocio Sanchez(javascript)
