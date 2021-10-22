@@ -1,114 +1,3 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat+Subrayada:wght@400;700&family=Prompt:ital,wght@0,200;0,500;0,700;0,900;1,500&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-}
-
-body{
-    background: #fff;
-    font-family: "krona One", "sans-serif";
-}
-
-.container1 {
-    display: flex;
-}
-
-header{
-    width: 100%;
-    
-}
-
-.header .main-nav{
-    width: 100%;
-    margin: 0 auto;
-}
-
-.nav-bar{
-    margin-top: 25px;
-}
-
-.nav-bar .logo{
-    display: flex;
-    margin: 25px 100px;
-    color: #1d1d1d;
-}
-
-.nav-bar .logo i{
-    font-size: 1.96em;
-}
-
-.nav-bar .logo h3{
-    font-size: 1.3em;
-    margin: 5px 5px;
-}
-
-.menu ul{
-    display: flex;
-    justify-content: flex-end;
-    margin: -50px 100px;
-}
-
-.menu ul li {
-    margin-right: 70px;
-}
-
-.menu ul li a{
-    color: #1d1d1d;
-    font-size: 1em;
-}
-
-.nav-bar .hamburguesa-menu{
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 27px;
-}
-
-.nav-bar .hamburguesa-menu i{
-    font-size: 1.3em;
-    cursor: pointer;
-    color: #1d1d1d;
-    display: none;
-}
-
-Menu Responsive
-@media (max-width:570px) {
-    .nav-bar .logo{
-        margin: 30px;
-    }
-    .nav-bar .hamburguesa-menu i{
-        display: block;
-        margin-right: 30px;
-        margin-top: -55px;
-    }
-    .nav-bar .menu ul{
-        background: #ffffff;
-        flex-direction: column;
-        justify-content: flex-start;
-        position: fixed;
-        width: 100%;
-        height: 100%;
-        margin-top: 100px;
-        z-index: 1;
-        transform: translateX(-130%);
-    }
-
-    .nav-bar .menu .menu-on{
-        transform: translateX(5%);
-    }
-    
-    .nav-bar .menu ul li{
-        margin: 30px;
-        text-transform: uppercase;
-    }
-
-}
-*/
-
-
-
 
 
 @import url('https://fonts.googleapis.com/css?family=Muli:400,400i,700,700i');
@@ -132,8 +21,9 @@ body{
     background-color:black;
     border-radius: 5px;
     justify-content: space-around;
-    font-size: x-large;
+    font-size:30px;
     text-decoration-color: linen;
+    font-family: fantasy;
     
    
 }
@@ -148,9 +38,9 @@ body{
 /*card*/
 .container{
     width: 965px;
-    background:chocolate;
+    background-color: maroon;
     margin: auto;
-    display: flex;
+    
    
 }
 
@@ -165,7 +55,6 @@ section{
 }
 .card{
     width: 270px;
-    height: 400px;
     background: white;
     margin-right: 15px;
     margin-top: 20px;  
@@ -173,6 +62,7 @@ section{
     transition: .5s ease;
     border: 3px solid transparent;
     cursor: pointer;
+    text-align: center;
 }
 img.imgcard{
     width: 200px;
@@ -199,14 +89,25 @@ h2{
     text-align: center;
     margin-bottom: 20px;
     text-decoration-line: underline;
+    font-family: 'Rampart One', cursive;
+    
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+    font-family: fantasy;
     
 }
 h4{
     text-align: center;
+
 }
 p{
     text-align: left;
     padding: 10px;
+    font-family: 'Franklin Gothic Medium';
+    
 }
 .card:hover{
     box-shadow: gray 3px 1px 3px 1px;
@@ -231,4 +132,21 @@ p{
     padding: 10px;
     margin: 10px;
     margin-bottom: 10px;
+}
+
+.contact-consulta {
+    text-align: center;
+    background-image: url(./imgs/fondoguayerd.png);
+    
+}
+
+.title { 
+    background-color: deepskyblue;
+}
+
+.footer_info { 
+  background-image: url(./imgs/footer.jpg);
+  text-align: center;
+  
+
 }
